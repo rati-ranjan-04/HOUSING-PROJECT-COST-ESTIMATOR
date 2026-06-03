@@ -1,0 +1,21 @@
+{
+  "model_name": "LinearRegression",
+  "dataset": "sklearn.datasets.fetch_california_housing (synthetic fallback if unavailable)",
+  "target_unit": "100,000 USD",
+  "rows": 20640,
+  "features": [
+    "MedInc",
+    "HouseAge",
+    "AveRooms",
+    "AveBedrms",
+    "Population",
+    "AveOccup",
+    "Latitude",
+    "Longitude"
+  ],
+  "mae": 0.3254,
+  "rmse": 0.423,
+  "r2": 0.8375,
+  "train_rows": 16512,
+  "test_rows": 4128
+}
